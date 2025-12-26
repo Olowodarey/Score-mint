@@ -1,0 +1,22 @@
+# Foundry
+out/
+cache/
+broadcast/
+
+# Hardhat
+node_modules/
+coverage/
+artifacts/
+cache/
+typechain-types/
+
+# Environment
+.env
+.env.local
+
+# Compiler files
+*.sol.artifacts
+*.sol.cache
+
+# Testing
+lcov.info
