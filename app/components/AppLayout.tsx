@@ -13,7 +13,7 @@ export default function AppLayout({ children, currentView, onNavigate }: AppLayo
   return (
     <div className="min-h-screen bg-dark">
       <Header />
-      <main className="pb-16">
+      <main className="pb-16 max-w-2xl mx-auto">
         {children}
       </main>
       <BottomNav currentView={currentView} onNavigate={onNavigate} />
