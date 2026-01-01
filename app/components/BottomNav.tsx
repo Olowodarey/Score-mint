@@ -14,7 +14,7 @@ export default function BottomNav({ currentView, onNavigate }: BottomNavProps) {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-dark-card border-t border-white/10 px-2 py-2 z-50 backdrop-blur-lg">
+    <nav className=" bg-red-500 fixed bottom-0 left-0 right-0 bg-dark-card border-t border-white/10 px-2 py-2 z-50 backdrop-blur-lg">
       <div className="flex justify-around items-center max-w-md mx-auto">
         {navItems.map((item) => (
           <button
