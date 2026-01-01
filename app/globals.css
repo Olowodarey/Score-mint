@@ -2,7 +2,7 @@
 
 @layer base {
   :root {
-    --background: #0a0a14;
+    --background: #0a0e1a;
     --foreground: #ededed;
     --font-inter: 'Inter', sans-serif;
   }
@@ -14,7 +14,7 @@
   }
 
   body {
-    background-color: #0a0a14;
+    background-color: #0a0e1a;
     color: #ededed;
     font-family: var(--font-inter), sans-serif;
     -webkit-font-smoothing: antialiased;
